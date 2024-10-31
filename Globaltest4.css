@@ -16,7 +16,7 @@
     --transp5: rgb(12 11 11 / 26%);
     --transp6: rgb(205 205 205 / 35%);
     --color1: #84996b;
-    --color2: #b8a694;
+    --color2: #95836f;
     --color3: #a66c74;
     --bgimgcolor: #191919;
     --bgimg: url('https://transparenttextures.com/patterns/3px-tile.png');
@@ -29,7 +29,7 @@
     --weight1: 400;
     --weight2: 900;
     --font1: 'Staatliches', cursive;
-    --font2: 'cloister_blacklight';
+    --font2: 'Montserrat', serif;
     --font3: 'Nunito Sans', sans-serif;
     --font4: 'Cappuccicons';
     --font5: 'a_dripping_markerregular';
@@ -61,7 +61,7 @@
     --text1: #000;
     --text2: #353535;
     --color1: #a66c74;
-    --color2: #b8a694;
+    --color2: #95836f;
     --color3: #6e8059;
     --bg1: #e4e4e4;
     --bg2: #ffffff;
@@ -4651,10 +4651,10 @@ SOBccannee:after{display: block;width: 1%;height: 100%;background-color:var(--co
 .SOB_orgimg img{
   width:880px;
   height:200px;
-  opacity:.3;
+  opacity:.1;
   object-fit:cover;
   border-radius:4px;
-  filter: contrast(1.5) grayscale(1);
+  filter: contrast(1) grayscale(0);
 }
 .SOB_orgtop{
   display:flex;
@@ -4673,7 +4673,7 @@ grid-template-rows: 1fr auto;
   background: var(--bg3);
   font-weight: 900;
   text-transform: uppercase;
-  color: var(--color2);
+  color: var(--color3);
   font-size: 14px;
   text-align: right;
   padding: 6px 10px;
