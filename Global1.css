@@ -813,14 +813,15 @@ a:link,a:hover,a:visited,a:active {
 
 pills {
      font-family: var(--font2);
-    font-size: 113px;
-    font-weight: var(--weight1);
+    font-size: 80px;
+    font-weight: 700;
     position: relative;
-    text-transform:lowercase;
     z-index: 9;
     font-style: italic;
     color: #fff;
     text-shadow: var(--transp3) 1px 0 10px;
+    line-height: 1em;
+    margin-bottom: 5px;
 }
 
 quote {
@@ -836,17 +837,18 @@ quote {
     top: -65px;
     z-index: 997;
 }
+
 potions {
     z-index: 9;
     margin-left: 40px;
     font-family: var(--font2);
-    font-size: 114px;
-    font-weight: lighter;
+    font-size: 100px;
+    font-weight: var(--weight2);
     position: relative;
     color: #000;
-       text-transform:lowercase;
     text-shadow: var(--transp3) 1px 0 10px;
     color: #fff;
+    line-height: 1em;
 }
 
 @keyframes flicker {
