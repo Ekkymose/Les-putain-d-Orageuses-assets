@@ -1677,7 +1677,7 @@ a.hell {
     -webkit-text-fill-color: transparent;
     text-align: right;
     font-family: var(--font2);
-    font-size: 22px;
+    font-size: 18px;
     align-items: center;
     margin: 20px;
     justify-content: flex-end;
@@ -1693,7 +1693,7 @@ a.hell {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: var(--font2);
-    font-size: 22px;
+    font-size: 18px;
     align-items: center;
     justify-content: flex-end;
     margin: 20px;
