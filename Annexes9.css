@@ -312,17 +312,20 @@
 }
 
 .alt_list {
-    background: var(--bg3);
-    padding: 10px 20px 5px 20px;
+    border-left: 1px solid var(--color3);
+    padding: 0px 5px 0px 20px;
 }
 .alt_list span {
     font-family: montserrat;
     font-weight: 600;
     text-transform: uppercase;
-    color: var(--text1)
+    color: var(--text1);
+    background: #fa654b;
+    padding: 1px 3px 1px 3px;
 }
 .alt_desc {
-    background: var(--bg2);
+    background: var(--bg3);
     padding: 10px;
     margin-bottom: 5px;
+    margin-top: 1px;
 }
