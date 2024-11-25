@@ -1,0 +1,16 @@
+block{
+  padding: 15px 10px 15px;
+  border: 1px solid var(--color2);
+  border-radius: 3px;
+  text-align: justify;
+  display : block;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgba(229, 106, 69, 0.1);
+  width: 50%;
+  transition: width 4s ease-out;
+}
+
+block:hover{
+  width: 60%;
+}
