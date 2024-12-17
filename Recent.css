@@ -1,0 +1,31 @@
+/* Container du mocule */
+.recent_topics {
+    background-color: var(--neutralDark);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Titre du module */
+.recent_topics-title {
+    font-size: var(--large-size);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 5px 0 15px;
+    text-align: center;
+}
+
+/* Container qui liste les derniers sujets */
+.topics_container {
+    border-radius: 10px;
+    background-color: var(--neutral);
+    padding: 10px;
+    height: 180px; /* Hauteur de la liste */
+    overflow: auto;
+}
+
+/* Container de chaque ligne */
+.recTopic:not(:last-of-type) {
+    border-bottom: 1px solid var(--neutralDark);
+    padding: 4px 0 8px;
+    margin-bottom: 8px;
+}
