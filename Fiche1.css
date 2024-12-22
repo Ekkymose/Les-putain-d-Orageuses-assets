@@ -1,0 +1,28 @@
+.moodboard{
+  width: 360px;
+  background-color: var(--bg0);
+  margin: auto;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  grid-gap: 20px;
+  justify-content: center;
+  align-content: center;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.boardpic{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 2px;
+ box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.boardpic:hover{
+  transform: translateY(-5px);
+}
+    
