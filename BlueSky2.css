@@ -1,0 +1,304 @@
+.twitwi{
+    margin: auto;
+    background: var(--bg3);
+    color: var(--text2);
+    width: 548px;
+    padding: 10px;
+    display: block;
+    font-family: var(--font2)
+}
+
+.twi_block{
+  padding: 7px;
+  border: 1px solid #373737;
+  border-radius: 5px !important;
+}
+.twi_header{
+padding: 7x;     
+}
+
+.twi_header_title{
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 10px;
+  margin-bottom: 12px;
+  margin-top: 5px;
+  text-transform: uppercase;
+  color: var(--text1);
+}
+
+.twi_header_title titi{
+  font-size: 10px;
+  display: flex;
+  margin-left: 18px;
+  text-transform: lowercase;
+  color: var(--text2);
+}
+
+.twi_header img{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.twi_profil{
+  margin-left: 10px;
+}
+
+.twi_profil img{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid var(--bg3);
+  margin-top: -50px;
+}
+
+.twi_buton{
+  position: relative;
+  width: 70px;
+  left: 420px;
+  top: -94px;
+  padding: 4px;
+  background-color: var(--color2);
+  border-radius: 15px !important;
+  font-size: 16px;
+  font-weight: 800;
+  color: #171717;
+  text-align: center; 
+}
+
+.twi_profil_title{
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: -25px; 
+}
+
+.twi_profil_title profilname{
+  color: var(--text1);
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.twi_profil_title username{
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.twi_profil_title bio{
+ display: flex;
+ margin-top: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: justify;
+  width: 95%;
+  color: var(--text1);
+}
+
+.twi_info2 {
+ margin-bottom: 10px;
+ 
+}
+
+.twi_info2 {
+margin-top: 10px;  
+}
+
+.twi_fo1, .twi_fo2 {
+    display: flex;
+    width: 500px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+  color: var(--text1);
+}
+
+.twi_fo2{
+  margin-top: 5px;
+}
+.twi_fo2 span{
+  font-weight: 900;
+}
+
+tfrom,tfollowers {
+    font-size: 15px;
+    margin-right: 10px;
+    font-weight: normal;
+  color: var(--text2);
+}
+
+.tpinned{
+ border-top: 2px solid var(--color2);
+
+}
+
+.tpinnedpost{
+  margin-left: 42px;
+  margin-top: 12px;
+  width: 90%;
+}
+
+.tpinnedpost i{
+  margin-right: 6px;
+}
+
+.timg{
+ position: absolute;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: -59px;
+  margin-top: 5px;
+  
+}
+
+.tpinnedpin{
+  display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.tpinnedpost pin{
+font-weight: 550;
+color: var(--text2);
+}
+
+.tpostedpin{
+  color: var(--text1);
+  margin-top: 5px;
+  margin-left: 19px;
+}
+
+.tpostedpintt{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.tpostedpintt tt1{
+  display: flex;
+  font-weight: 700;
+  margin-right: 5px;
+}
+.tpostedpintt date{
+  color: var(--text2);
+}
+
+.tpostpost{
+  padding: 5px 5px 10px 0px;
+    font-weight: 500;
+}
+
+.treaction{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.treaction span{
+  display: flex;
+}
+
+.tppost{
+  margin-left: 50px;
+  width: 90%;
+}
+
+
+.tpostimg{
+  width: 440px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 5px !important;
+}
+
+.tpostimg2{
+   justifier-contenu : espace-autour ;
+    align-items:centre;
+    affichage : flex ;
+    flex-direction : ligne ;
+  padding: 2px;
+  width: 220px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 10px !important;
+}
+
+.repost{
+  color: var(--text2);
+  margin-bottom: 5px;
+  margin-left: -21px;
+  margin-top: -5px;
+  font-weight: 700;
+  
+}
+
+.repost i{
+  margin-right: 6px;
+}
+
+.trpreaction{
+  margin-left: 50px;
+  margin-top : 5px;
+  margin-bottom: 5px;
+}
+
+.treact{
+width: 100%;
+  
+}
+
+.treact img{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.tpreact{
+  color: var(--text1);
+  margin-top: 4px;
+}
+
+.tpreact name{
+  font-weight: 700;
+}
+
+.trpreaction i{
+  position: absolute;
+  margin-left: -20px;
+  font-size: 50px;
+}
+
+.tcomment{
+    margin-left: 42px;
+    margin-top: px;
+    width: 90%;
+}
+
+.tcommented{
+    color: var(--text1);
+    margin-top: px;
+    margin-left: 19px;
+}
+
+.tcom{
+  color: var(--text2);
+  margin-top: 2px;
+}
+
+.tcom tag{
+  color: var(--color2)
+}
