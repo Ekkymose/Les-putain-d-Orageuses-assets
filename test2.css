@@ -1,0 +1,21 @@
+.post_new{
+border-left: 4px solid var(--color3);
+    border-radius: 2px;
+    background: var(--bg3) !important;
+}
+
+.forum_new{
+      border-left: 7px solid var(--color3);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 3px;
+}
+
+.cat_new{
+          border-left: 7px solid var(--color3);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 3px;
+}
+
+.group-mentiontag{
+    background: transparent !important;
+}
