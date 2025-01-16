@@ -1,0 +1,16 @@
+.preview_avatar img{
+width: 50;
+height: 70;
+  object-fit: cover;
+}
+
+.preview_info{
+  background: var(--bg3);
+  color: var(--purewhite);
+  width: 100%;
+}
+
+.preview_pseudo{
+  color: var(--color2);
+  font-weight: 700;
+}
