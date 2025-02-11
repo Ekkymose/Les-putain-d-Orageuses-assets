@@ -1,0 +1,9 @@
+.post_mess {
+margin: auto;
+    background: var(--bg3);
+    font-family: var(--font3);
+    color: var(--text2);
+    width: 645px;
+    outline: 1px solid var(--bg3);
+    border-radius: 2px !important;
+}
